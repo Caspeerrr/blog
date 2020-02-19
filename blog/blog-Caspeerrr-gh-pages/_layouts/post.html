@@ -1,0 +1,51 @@
+---
+layout: "default"
+---
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="post-image" src="media/{{ page.image }}">
+      </div>
+      <div class="col">
+        
+        <h1>{{ page.title }}</h1>
+        <hr>
+        <p id="source">Source: {{ page.source }}</p>
+
+      </div>
+    </div>
+  </div>
+  
+<div class="post-text">
+{{ content }}
+</div>
+
+<!-- Source for the bit of code below: https://elliotekj.com/2016/12/05/jekyll-create-a-list-of-all-posts-in-the-same-category/ -->
+{% for category in page.categories %}
+  {% assign moreThanOneInCategory = false %}
+  {% assign posts = site.categories[category] %}
+
+  {% for post in posts %}
+    {% if forloop.length > 1 %}
+      {% assign moreThanOneInCategory = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if moreThanOneInCategory == true %}
+    <div class="posts-related">
+      <h3>Other posts archived in “{{ category }}”</h3>
+      <ul>
+        {% for post in posts %}
+          {% unless post.url == page.url %}
+            <li>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+              Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            </li>
+         {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+ {% endif %}
+{% endfor %}

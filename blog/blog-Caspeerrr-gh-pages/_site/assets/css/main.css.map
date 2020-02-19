@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_stylesheet.scss"
+	],
+	"sourcesContent": [
+		"@import \"stylesheet\";",
+		"$base-font: serif;\r\n\r\n%standard-padding \r\n{\r\n    padding-top: 2%;\r\n    margin-right: 2%;\r\n}\r\n\r\n%standard-text\r\n{\r\n    padding-left: 8%;\r\n    padding-top: 1%;\r\n    font: $base-font;\r\n    font-size: 120%;\r\n}\r\n  \r\n.icon\r\n{\r\n    width: 3.5%;\r\n    margin-left: 2%;\r\n    margin-right: 2%\r\n}\r\n\r\nh1\r\n{\r\n    font: $base-font;\r\n    text-align: left;\r\n    padding-top: 4%;\r\n    padding-left: 8%\r\n}\r\n\r\nhr\r\n{\r\n    border: .5px solid grey;\r\n}\r\n\r\n.white\r\n{\r\n    color: white;\r\n}\r\n\r\np{\r\n    @extend %standard-text;\r\n}\r\n\r\n#source\r\n{\r\n    color: grey;\r\n}\r\n\r\n.post-image\r\n{\r\n    padding-top: 5%;\r\n    width: 90%;\r\n}\r\n\r\n.post-thumbnail\r\n{\r\n    width: 50%;\r\n    margin: 3%;\r\n    float: left;\r\n}\r\n\r\n.preview\r\n{\r\n    @extend %standard-padding;\r\n}\r\n\r\n.post-text\r\n{\r\n    @extend %standard-padding;    \r\n}\r\n\r\n.thumbnails-scrollbar\r\n{\r\n    height: 500px;\r\n    overflow-y: scroll;\r\n}\r\n\r\n.posts-related\r\n{\r\n    @extend %standard-text;\r\n    \r\n    h3\r\n    {\r\n    text-decoration: underline;\r\n    text-decoration-color: lightgray;\r\n    }\r\n}\r\n\r\n@media screen and (max-width: 900px) \r\n{\r\n    .post-thumbnail\r\n    {\r\n      float: none;\r\n      width: 100%;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AC+DA,AA7DA,QA6DQ,EAKR,UAAU,CAjEV,EACI,WAAW,EAAE,EAAE,EACf,YAAY,EAAE,EAAE,GACnB;;AAmCD,AAjCA,CAiCC,EAsCD,cAAc,CAtEd,EACI,YAAY,EAAE,EAAE,EAChB,WAAW,EAAE,EAAE,EACf,IAAI,EAZI,KAAK,EAab,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,KAAK,CACL,EACI,KAAK,EAAE,IAAI,EACX,WAAW,EAAE,EAAE,EACf,YAAY,EAAE,EAClB,GAAC;;AAED,AAAA,EAAE,CACF,EACI,IAAI,EAzBI,KAAK,EA0Bb,UAAU,EAAE,IAAI,EAChB,WAAW,EAAE,EAAE,EACf,YAAY,EAAE,EAClB,GAAC;;AAED,AAAA,EAAE,CACF,EACI,MAAM,EAAE,eAAe,GAC1B;;AAED,AAAA,MAAM,CACN,EACI,KAAK,EAAE,KAAK,GACf;;AAMD,AAAA,OAAO,CACP,EACI,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,WAAW,CACX,EACI,WAAW,EAAE,EAAE,EACf,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,eAAe,CACf,EACI,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,EAAE,EACV,KAAK,EAAE,IAAI,GACd;;AAYD,AAAA,qBAAqB,CACrB,EACI,MAAM,EAAE,KAAK,EACb,UAAU,EAAE,MAAM,GACrB;;AAED,AAII,cAJU,CAIV,EAAE,CACF,EACA,eAAe,EAAE,SAAS,EAC1B,qBAAqB,EAAE,SAAS,GAC/B;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,IAlCnC,AAAA,eAAe,CAqCX,EACE,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,IAAI,GACZ"
+}

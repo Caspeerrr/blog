@@ -1,0 +1,25 @@
+.preview, .post-text { padding-top: 2%; margin-right: 2%; }
+
+p, .posts-related { padding-left: 8%; padding-top: 1%; font: serif; font-size: 120%; }
+
+.icon { width: 3.5%; margin-left: 2%; margin-right: 2%; }
+
+h1 { font: serif; text-align: left; padding-top: 4%; padding-left: 8%; }
+
+hr { border: .5px solid grey; }
+
+.white { color: white; }
+
+#source { color: grey; }
+
+.post-image { padding-top: 5%; width: 90%; }
+
+.post-thumbnail { width: 50%; margin: 3%; float: left; }
+
+.thumbnails-scrollbar { height: 500px; overflow-y: scroll; }
+
+.posts-related h3 { text-decoration: underline; text-decoration-color: lightgray; }
+
+@media screen and (max-width: 900px) { .post-thumbnail { float: none; width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

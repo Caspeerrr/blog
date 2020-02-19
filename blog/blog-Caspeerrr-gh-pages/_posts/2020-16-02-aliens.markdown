@@ -1,0 +1,43 @@
+---
+layout: post  
+title:  "'Technosignatures' could help in search for alien life"
+date:   2020-02-16 12:08:19 +0100
+categories: worldnews
+permalink: "alien life"
+source: "sky-news"
+image: "aliens.jpg"
+---
+
+Have scientists finally found the key to discovering whether we are alone in the universe?
+Scientists are developing techniques to detect signatures from space in their search for alien life.
+
+The Very Large Array (VLA) telescope, at the National Radio Astronomy Observatory (NARO) site in Socorro, New Mexico, will be used to constantly seek evidence of technosignatures.
+
+A technosignature is a proxy for the existence of a technologically advanced, extraterrestrial civilisation, according to scientists at the Search for Extraterrestrial Intelligence (SETI) Institute in California.
+
+These include things such as the chemical composition of a planet's atmosphere, laser emissions or structures orbiting stars.
+
+The VLA is a collection of 27 radio antennas - and one spare - which work together to effectively act as a single huge telescope.
+
+Bill Diamond, president and chief executive of the SETI Institute, said: "Having access to the most sensitive radio telescope in the northern hemisphere for SETI observations is perhaps the most transformative opportunity yet in the history of SETI programmes."
+
+Dr Tony Beasley, director of the NRAO, based in the US state of Virginia, said: "Determining whether we are alone in the universe as technologically capable life is among the most compelling questions in science."
+
+He added: "As the VLA conducts its usual scientific observations, this new system will allow for an additional and important use for the data we're already collecting.
+
+"As continuing discoveries show us that planets are very common components of the universe, and we are able to study the characteristics of those planets, it's exciting that at the same time, technological advances are giving us the tools to greatly expand our search for signs of life.
+
+"We also look forward to the coming decade, when we hope to build a next-generation Very Large Array, which will be able to search a volume of the universe a thousand times larger than that accessible to current telescopes - making it the most powerful radio technosignature search machine humanity has ever constructed."
+
+The scientists are also making computer models to simulate extraterrestrial environments, helping the search for life beyond the solar system and planets that can support future searches for habitable planets and life beyond the solar system.
+
+Victoria Meadows, principal investigator for Nasa's virtual planetary laboratory at the University of Washington, said: "Upcoming telescopes in space and on the ground will have the capability to observe the atmospheres of Earth-sized planets orbiting nearby cool stars, so it's important to understand how best to recognise signs of habitability and life on these planets.
+
+"These computer models will help us determine whether an observed planet is more or less likely to support life."
+
+The new developments come after astronomers based in Canada detected radio signals from outer space that repeat at regular intervals.
+
+The series of fast radio bursts (FRBs) - short-lived pulses of radio waves that come from across the universe - were detected about once an hour for four days and then stopped, only to start up again 12 days later.
+
+FRBs are not in and of themselves unusual, but previous observations have shown them to be mostly emitted at random.
+

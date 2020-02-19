@@ -1,0 +1,101 @@
+---
+
+---
+$base-font: serif;
+
+%standard-padding 
+{
+    padding-top: 2%;
+    margin-right: 2%;
+}
+
+%standard-text
+{
+    padding-left: 8%;
+    padding-top: 1%;
+    font: $base-font;
+    font-size: 120%;
+}
+  
+.icon
+{
+    width: 3.5%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+h1
+{
+    font: $base-font;
+    text-align: left;
+    padding-top: 4%;
+    padding-left: 8%
+}
+
+hr
+{
+    border: .5px solid grey;
+}
+
+.white
+{
+    color: white;
+}
+
+p{
+    @extend %standard-text;
+}
+
+#source
+{
+    color: grey;
+}
+
+.post-image
+{
+    padding-top: 5%;
+    width: 90%;
+}
+
+.post-thumbnail
+{
+    width: 50%;
+    margin: 3%;
+    float: left;
+}
+
+.preview
+{
+    @extend %standard-padding;
+}
+
+.post-text
+{
+    @extend %standard-padding;    
+}
+
+.thumbnails-scrollbar
+{
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.posts-related
+{
+    @extend %standard-text;
+    
+    h3
+    {
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    }
+}
+
+@media screen and (max-width: 900px) 
+{
+    .post-thumbnail
+    {
+      float: none;
+      width: 100%;
+    }
+}
